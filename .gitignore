@@ -10,6 +10,7 @@ node_modules
 dist
 dist-ssr
 *.local
+*.tsbuildinfo
 
 .vscode/*
 !.vscode/extensions.json
@@ -21,3 +22,15 @@ dist-ssr
 *.sln
 *.sw?
 .env
+.env.local
+.env.*.local
+
+# MiniRedix runtime AOF persistence (local dev / test data — never committed)
+.data/
+.data-e2e/
+
+# Vercel
+.vercel
+
+# Bolt.new metadata (not needed for build/deploy)
+.bolt/
