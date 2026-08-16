@@ -2,6 +2,9 @@
 
 A compact Redis-inspired key-value store with a REST API, TCP server, and web dashboard.
 
+## Live Demo
+https://miniredix.vercel.app/
+
 ## Overview
 
 MiniRedix stores string values in memory and exposes them through a simple command interface. The project includes a browser dashboard for exploring keys, running commands, reviewing history, and monitoring runtime statistics. Mutating commands are persisted to an append-only file so data can be recovered after a restart.
